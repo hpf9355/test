@@ -22,7 +22,7 @@ public class CmsPageController implements CmsPageControllerApi {
         queryResult.setTotal(1);
         List<CmsPage> list=new ArrayList<>();
         CmsPage cmsPage=new CmsPage();
-        cmsPage.setPageName("测试页面");
+        cmsPage.setPageName("页面");
         list.add(cmsPage);
         queryResult.setList(list);
 
